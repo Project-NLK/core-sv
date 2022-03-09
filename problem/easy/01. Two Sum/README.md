@@ -55,11 +55,11 @@ def brute_force(self, nums, target):
 
 이중 루프로 인해 시간복잡도는 O(n^2)로 느리다.
 
-<img src="../../images/01.%20Two%20Sum/01_two_sum_brute_force_time_complexity.png" width="1000">
+<img src="images/01_two_sum_brute_force_time_complexity.png" width="1000">
 
 반면 별도의 메모리를 사용하지 않기 때문에 공간 복잡도는 O(n)으로 적다.
 
-<img src="../../images/01.%20Two%20Sum/01_two_sum_brute_force_space_complexity.png" width="1000">
+<img src="images/01_two_sum_brute_force_space_complexity.png" width="1000">
 
 ### Hash Table - 1
 
@@ -76,11 +76,11 @@ def two_pass_hash_table(self, nums, target):
 
 해시 테이블을 사용하는 부분은 시간 복잡도가 O(1)이지만 해시 테이블을 초기화하는 과정으로 인해 시간복잡도는 O(n)으로 빠르다.
 
-<img src="../../images/01.%20Two%20Sum/01_two_sum_two_pass_hash_table_time_complexity.png" width="1000">
+<img src="images/01_two_sum_two_pass_hash_table_time_complexity.png" width="1000">
 
 해시 테이블을 사용하기 때문에 공간 복잡도는 높은 편이다.
 
-<img src="../../images/01.%20Two%20Sum/01_two_sum_two_pass_hash_table_space_complexity.png" width="1000">
+<img src="images/01_two_sum_two_pass_hash_table_space_complexity.png" width="1000">
 
 ### Hash Table - 2
 
@@ -100,8 +100,8 @@ def one_pass_hash_table(self, nums, target):
 
 시간 복잡도는 `Hash Table - 1`와 같이 O(n)이지만 루프를 한번으로 줄였기 때문에 `Hash Table - 1` 풀이보다 조금 더 빠르다.
 
-<img src="../../images/01.%20Two%20Sum/01_two_sum_one_pass_hash_table_time_complexity.png" width="1000">
+<img src="images/01_two_sum_one_pass_hash_table_time_complexity.png" width="1000">
 
 이 풀이 역시 해시 테이블을 사용하기 때문에 공간 복잡도는 높은 편이다.
 
-<img src="../../images/01.%20Two%20Sum/01_two_sum_one_pass_hash_table_space_complexity.png" width="1000">
+<img src="images/01_two_sum_one_pass_hash_table_space_complexity.png" width="1000">
